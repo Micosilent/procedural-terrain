@@ -4,7 +4,7 @@ import { Component } from "react";
 import { Vector3 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { makeNoise2D } from "open-simplex-noise";
-import { makeRectangle, valueNoise2D } from "fractal-noise";
+import { makeRectangle } from "fractal-noise";
 
 class App extends Component {
   componentDidMount() {
